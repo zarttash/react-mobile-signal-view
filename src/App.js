@@ -4,7 +4,7 @@ import SignalView from './lib';
 function App() {
   return (
     <div className="App">
-      <SignalView bars='two-bars' strength='good' />
+      <SignalView/>
     </div>
   );
 }
