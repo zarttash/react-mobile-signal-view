@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+.signal-sizing-box {
+    height: 15px;
+    width: 30px;
+}
+
+.mobile-signal-bars {
+    display: inline-block;
+}
+
+.mobile-signal-bars .signal-bar {
+    width: 4px;
+    margin-left: 2px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 2px;
+}
+.mobile-signal-bars .signal-bar.first-bar {
+    height: 20%;
+}
+.mobile-signal-bars .signal-bar.second-bar {
+    height: 40%;
+}
+.mobile-signal-bars .signal-bar.third-bar {
+    height: 60%;
+}
+.mobile-signal-bars .signal-bar.fourth-bar {
+    height: 80%;
+}
+.mobile-signal-bars .signal-bar.fifth-bar {
+    height: 100%;
+}
+
+.good .signal-bar {
+    background-color: #16a085;
+}
+.bad .signal-bar {
+    background-color: #e74c3c;
+}
+.ok .signal-bar {
+    background-color: #f1c40f;
+}
+
+.four-bars .signal-bar.fifth-bar,
+.three-bars .signal-bar.fifth-bar,
+.three-bars .signal-bar.fourth-bar,
+.one-bar .signal-bar:not(.first-bar),
+.two-bars .signal-bar:not(.first-bar):not(.second-bar) {
+    background-color: #8ca6c0;
+}
