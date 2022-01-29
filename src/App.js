@@ -1,10 +1,10 @@
 import './App.css';
-import SignalView from './lib';
+import SignalView from "react-mobile-signal-view"
 
 function App() {
   return (
     <div className="App">
-      <SignalView/>
+      <SignalView />
     </div>
   );
 }

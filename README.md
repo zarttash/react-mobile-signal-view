@@ -18,7 +18,7 @@ npm install react-mobile-signal-view
 ## Usage/Example
 
 ```render
-import SignalView from react-mobile-signal-view
+import SignalView from "react-mobile-signal-view"
 
 # render component 
 <SignalView bars='five-bars' strength='good' />

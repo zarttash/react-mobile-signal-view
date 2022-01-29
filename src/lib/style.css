@@ -3,8 +3,8 @@
 }
 
 .signal-sizing-box {
-    height: 40px;
-    width: 60px;
+    height: 15px;
+    width: 30px;
 }
 
 .mobile-signal-bars {
@@ -12,8 +12,9 @@
 }
 
 .mobile-signal-bars .signal-bar {
-    width: 10px;
+    width: 4px;
     margin-left: 2px;
+    height: 10px;
     display: inline-block;
     border-radius: 2px;
 }

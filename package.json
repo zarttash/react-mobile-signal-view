@@ -1,6 +1,6 @@
 {
   "name": "react-mobile-signal-view",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "react-mobile-signal-view provides simple React Mobile Signal component which can be implemented to show mobile signals in React App.",
   "author": "Zarttash",
   "keywords": [
@@ -27,6 +27,7 @@
     "prop-types": "^15.8.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-mobile-signal-view": "^0.1.2",
     "react-scripts": "5.0.0",
     "web-vitals": "^2.1.4"
   },
